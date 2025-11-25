@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "bun run build.ts && vite build",
+    "build": "npm install -g bun && bun run build.ts && vite build",
     "preview": "vite preview --port 5000"
   },
   "dependencies": {
