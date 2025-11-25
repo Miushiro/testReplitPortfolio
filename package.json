@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently "/bun run --bun dev.ts"/ "/vite dev"/",
+    "dev": "vite dev",
     "build": "bun run build.ts && vite build",
     "preview": "vite preview --port 5000"
   },
